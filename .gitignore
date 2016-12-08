@@ -1,6 +1,6 @@
 *.egg-info
 *.mo
-*.pyc
+*.py?
 *~
 .*.kate-swp
 .coverage
