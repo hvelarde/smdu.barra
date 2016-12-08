@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smdu.identidadevisual\n"
+"POT-Creation-Date: 2016-12-08 14:46+0000\n"
+"PO-Revision-Date: 2012-09-18 23:00+0000\n"
+"Last-Translator: PloneGov.Br <gov@plone.org.br>\n"
+"Language-Team: PloneGov.Br <gov@plone.org.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: smdu/identidadevisual/interfaces.py:21
+msgid ""
+msgstr ""
+
+#: smdu/identidadevisual/interfaces.py:33
+msgid "Address"
+msgstr ""
+
+#: smdu/identidadevisual/profiles.zcml:14
+msgid "Barra de identidade visual e footer para uso em sites Plone da Prefeitura de São Paulo."
+msgstr ""
+
+#: smdu/identidadevisual/profiles.zcml:14
+msgid "SMDU Identidade visual"
+msgstr ""
+
+#: smdu/identidadevisual/browser/controlpanel.py:13
+msgid "Settings for the identity bar and footer."
+msgstr ""
+
+#: smdu/identidadevisual/interfaces.py:26
+msgid "Show footer?"
+msgstr ""
+
+#: smdu/identidadevisual/interfaces.py:20
+msgid "Show identity bar?"
+msgstr ""
+
+#: smdu/identidadevisual/profiles.zcml:23
+msgid "Uninstalls smdu.identidadevisual."
+msgstr ""
+
+#: smdu/identidadevisual/browser/controlpanel.py:12
+#: smdu/identidadevisual/profiles/default/controlpanel.xml
+msgid "Visual Identity"
+msgstr ""
+
+#: smdu/identidadevisual/profiles.zcml:23
+msgid "smdu.identidadevisual: uninstall"
+msgstr ""

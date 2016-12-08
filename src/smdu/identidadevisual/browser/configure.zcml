@@ -1,0 +1,32 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+  <browser:resourceDirectory name="smdu.identidadevisual" directory="static" />
+
+  <browser:viewlet
+      class=".viewlets.VisualIdentityViewlet"
+      layer="smdu.identidadevisual.interfaces.IAddOnLayer"
+      manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+      name="smdu.identity_bar"
+      permission="zope2.View"
+      template="identity_bar.pt"
+      />
+
+  <browser:viewlet
+      class=".viewlets.FooterViewlet"
+      layer="smdu.identidadevisual.interfaces.IAddOnLayer"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      name="smdu.footer"
+      permission="zope2.View"
+      template="footer.pt"
+      />
+
+  <browser:page
+      class=".controlpanel.VisualIdentitySettingsControlPanel"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      name="visualidentity-settings"
+      permission="smdu.identidadevisual.Setup"
+      />
+
+</configure>

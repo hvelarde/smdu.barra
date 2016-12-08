@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="smdu.identidadevisual">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="SMDU Identidade visual"
+      directory="profiles/default"
+      description="Barra de identidade visual e footer para uso em sites Plone da Prefeitura de São Paulo."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      i18n:attributes="title; description"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="smdu.identidadevisual: uninstall"
+      directory="profiles/uninstall"
+      description="Uninstalls smdu.identidadevisual."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      i18n:attributes="title; description"
+      />
+
+  <utility factory=".setuphandlers.NonInstallable" name="smdu.portal" />
+
+</configure>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object>
+  <order manager="plone.portaltop" skinname="*">
+    <viewlet name="smdu.identity_bar" insert-before="*" />
+  </order>
+  <order manager="plone.portalfooter" skinname="*">
+    <viewlet name="smdu.footer" insert-before="*" />
+  </order>
+</object>

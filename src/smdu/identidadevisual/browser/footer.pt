@@ -1,0 +1,96 @@
+<tal:footer condition="view/enabled">
+  <div id="smdu-global-footer">
+    <div>
+      <p><strong>Prefeitura de São Paulo</strong></p>
+      <p>
+        <select>
+          <option>Secretarias</option>
+        </select>
+      <p>
+        <select>
+          <option>Subprefeituras</option>
+        </select>
+      </p>
+      <p>
+        <select>
+          <option>Outros Órgãos</option>
+        </select>
+      </p>
+    </div>
+    <div>
+      <p><strong>Plataformas de Participação e Transparência</strong></p>
+      <p>Busca Saúde</p>
+      <p>Combate Assédio Sexual</p>
+      <p>GeoSampa</p>
+      <p>Gestão Urbana</p>
+      <p>Infocidade</p>
+      <p>Mapas e Serviços</p>
+      <p>Mobilidade Segura</p>
+      <p>Observa Sampa</p>
+      <p>Planeja Sampa</p>
+      <p>São Paulo Aberta</p>
+      <p>SPCultura</p>
+    </div>
+    <div>
+      <p><strong>Consultas</strong></p>
+      <p>Pesquisa de Processos</p>
+      <p>Licitações</p>
+      <p>Alta de Registro de Preços</p>
+      <p>Diário Oficial</p>
+
+      <p><strong>São Paulo Para</strong></p>
+      <p>Cidadão</p>
+      <p>Empresa</p>
+      <p>Turista</p>
+      <p>Servidor</p>
+    </div>
+    <div>
+      <p><strong>Transparência</strong></p>
+      <p>Portal Transparência</p>
+      <p>Dados Abertos</p>
+
+      <p><strong>Serviços aos Cidadãos</strong></p>
+      <p>Guia de Serviços</p>
+      <p>Aplicativos</p>
+      <p>Procon Paulistano</p>
+      <p>Pedido de Informação</p>
+      <p>Central 156</p>
+      <p>Praças de Atendimento das Subprefeituras</p>
+      <p>Ouvidoria Geral do Município: 0800 175717</p>
+    </div>
+  </div>
+
+  <div id="smdu-site-footer">
+    <div>
+      <p class="icons-logo">
+        <a href="http://www.capital.sp.gov.br/" title="Prefeitura de São Paulo"></a>
+      </p>
+    </div>
+    <div>
+      <p><strong>Contato</strong></p>
+      <p tal:content="structure view/address">
+        Secretaria Municipal de Desenvolvimento Urbano (SMDU)
+        Prefeitura de São Paulo
+        Rua São Bento, 405, Centro - 17º e 18º andar
+        CEP 01011-100 - São Paulo - SP
+        Telefone: (11) 3113 7500
+      </p>
+    </div>
+    <div>
+      <p class="icons-cc"></p>
+      <p>
+        Todo o conteúdo do site está disponível sob licença Creative Commons.
+        Acesse a página de Desenvolvimento e saiba mais.
+      </p>
+    </div>
+    <div>
+      <p><strong>Redes Sociais</strong></p>
+      <div class="icons-facebook" title="Facebook"></div>
+      <div class="icons-twitter" title="Twitter"></div>
+      <div class="icons-syndication" title="Sindicação"></div>
+      <p>Termos de uso</p>
+      <p>Desenvolvimento</p>
+      <p>Mapa do site</p>
+    </div>
+  </div>
+</tal:footer>

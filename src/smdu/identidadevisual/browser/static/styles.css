@@ -1,0 +1,73 @@
+/* SMDU Identity Bar */
+#smdu-identity-bar
+{
+    align-items: center;
+    background: #f4f3ee;
+    display: flex;
+    font-size: 80%;
+    height: 40px;
+    justify-content: space-between;
+}
+#smdu-identity-bar div a {
+    color: black;
+}
+.smdu-info {
+    background: url(++resource++smdu.identidadevisual/info.png) no-repeat scroll left center;
+    color: black;
+    padding: 1em 0 1em 22px;
+}
+/* footer */
+#smdu-global-footer
+{
+    align-items: flex-start;
+    background: white;
+    display: flex;
+    font-size: 80%;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+#smdu-site-footer
+{
+    align-items: flex-start;
+    background: white;
+    display: flex;
+    font-size: 80%;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+#smdu-global-footer div, #smdu-site-footer div
+{
+    width: 24%;
+}
+.icons-logo {
+    background: url('pmsp.png') no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 182px;
+}
+.icons-cc {
+    background: url('cc.png') no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+/* sprites */
+.icons-facebook, .icons-syndication, .icons-twitter, .icons-youtube {
+    background: url('social-networks.png') no-repeat;
+    display: inline-block;
+    height: 34px;
+    margin-top: 1em;
+    width: 34px !important;
+}
+.icons-facebook {
+    background-position: -100px -26px;
+}
+.icons-syndication {
+    background-position: -26px -26px;
+}
+.icons-twitter {
+    background-position: -176px -26px;
+}
+.icons-youtube {
+    background-position: -176px -103px;
+}
