@@ -39,4 +39,16 @@ Para habilitar a instalação deste produto em um ambiente que utilize o buildou
 Captura de telas
 ----------------
 
-TBD.
+.. figure:: https://raw.github.com/hvelarde/smdu.identidadevisual/master/docs/identity-bar.png
+    :align: center
+    :height: 225px
+    :width: 768px
+
+    A barra de identidade visual.
+
+.. figure:: https://raw.github.com/hvelarde/smdu.identidadevisual/master/docs/footer.png
+    :align: center
+    :height: 405px
+    :width: 768px
+
+    O footer.
