@@ -3,17 +3,114 @@
     <div>
       <p><strong>Prefeitura de São Paulo</strong></p>
       <p>
-        <select>
-          <option>Secretarias</option>
-        </select>
-      <p>
-        <select>
-          <option>Subprefeituras</option>
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+          <option value="">Secretarias</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/assistencia_social/">Assistência e Desenvolvimento Social</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/comunicacao">Comunicação</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/controladoria_geral/">Controladoria Geral do Município</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/subprefeituras/">Coordenação das Subprefeituras</option>
+          <option value="http://cultura.prefeitura.sp.gov.br/">Cultura</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/trabalho/">Desenv., Trabalho e Empreendedorismo</option>
+          <option value="http://smdu.prefeitura.sp.gov.br/">Desenvolvimento Urbano</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/direitos_humanos">Direitos Humanos e Cidadania</option>
+          <option value="http://educacao.prefeitura.sp.gov.br/">Educação</option>
+          <option value="http://esportes.prefeitura.sp.gov.br/">Esportes, Lazer e Recreação</option>
+          <option value="http://financas.prefeitura.sp.gov.br/">Finanças e Desenvolvimento Econômico</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/gestao/">Gestão</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/governo/">Governo</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/habitacao/">Habitação</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/infraestrutura/">Infraestrutura Urbana e Obras</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/licenciamentos/">Licenciamento</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/procuradoria/">Negócios Jurídicos</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/pessoa_com_deficiencia/">Pessoa com Deficiência e Mob. Reduzida</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/politicas_para_as_mulheres">Políticas para as Mulheres</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/igualdade_racial/">Promoção da Igualdade Racial</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/relacoes_governamentais/">Relações Governamentais</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/relacoes_internacionais/">Relações Internacionais e Federativas</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/saude">Saúde</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/seguranca_urbana/">Segurança Urbana</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/servicos/">Serviços</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/transportes">Transportes</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/">Verde e Meio Ambiente</option>
         </select>
       </p>
       <p>
-        <select>
-          <option>Outros Órgãos</option>
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+          <option value="">Subprefeituras</option>
+          <option value="http://aricanduva.prefeitura.sp.gov.br">Aricanduva/V.Formosa</option>
+          <option value="http://butanta.prefeitura.sp.gov.br">Butantã</option>
+          <option value="http://campolimpo.prefeitura.sp.gov.br">Campo Limpo</option>
+          <option value="http://capeladosocorro.prefeitura.sp.gov.br">Capela do Socorro</option>
+          <option value="http://casaverde.prefeitura.sp.gov.br/">Casa Verde</option>
+          <option value="http://cidadeademar.prefeitura.sp.gov.br">Cidade Ademar</option>
+          <option value="http://cidadetiradentes.prefeitura.sp.gov.br">Cidade Tiradentes</option>
+          <option value="http://ermelinomatarazzo.prefeitura.sp.gov.br">Ermelino Matarazzo</option>
+          <option value="http://freguesia.prefeitura.sp.gov.br">Freguesia do Ó</option>
+          <option value="http://guaianases.prefeitura.sp.gov.br">Guaianases</option>
+          <option value="http://ipiranga.prefeitura.sp.gov.br">Ipiranga</option>
+          <option value="http://itaimpaulista.prefeitura.sp.gov.br">Itaim Paulista</option>
+          <option value="http://itaquera.prefeitura.sp.gov.br">Itaquera</option>
+          <option value="http://jabaquara.prefeitura.sp.gov.br">Jabaquara</option>
+          <option value="http://jacana-tremembe.prefeitura.sp.gov.br">Jaçanã/Tremembé</option>
+          <option value="http://lapa.prefeitura.sp.gov.br">Lapa</option>
+          <option value="http://mboimirim.prefeitura.sp.gov.br">M'Boi Mirim</option>
+          <option value="http://mooca.prefeitura.sp.gov.br">Mooca</option>
+          <option value="http://parelheiros.prefeitura.sp.gov.br">Parelheiros</option>
+          <option value="http://penha.prefeitura.sp.gov.br">Penha</option>
+          <option value="http://perus.prefeitura.sp.gov.br">Perus</option>
+          <option value="http://pinheiros.prefeitura.sp.gov.br">Pinheiros</option>
+          <option value="http://pirituba.prefeitura.sp.gov.br">Pirituba/Jaraguá</option>
+          <option value="http://santana-tucuruvi.prefeitura.sp.gov.br">Santana/Tucuruvi</option>
+          <option value="http://santoamaro.prefeitura.sp.gov.br">Santo Amaro</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/subprefeituras/sapopemba/">Sapopemba</option>
+          <option value="http://saomateus.prefeitura.sp.gov.br">São Mateus</option>
+          <option value="http://saomiguel.prefeitura.sp.gov.br">São Miguel</option>
+          <option value="http://se.prefeitura.sp.gov.br/">Sé</option>
+          <option value="http://vilamaria-vilaguilherme.prefeitura.sp.gov.br">V.Maria/V.Guilherme</option>
+          <option value="http://vilamariana.prefeitura.sp.gov.br">Vila Mariana</option>
+          <option value="http://vilaprudente.prefeitura.sp.gov.br">Vila Prudente</option>
+        </select>
+      </p>
+      <p>
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+          <option value="">Outros Órgãos</option>
+          <option value="http://www.prefeitura.sp.gov.br/ahm">Autarquia Hospitalar</option>
+          <option value="http://www.cetsp.com.br/">CET</option>
+          <option value="http://www.cgesp.com.br/">CGE</option>
+          <option value="http://cohab.sp.gov.br/">Cohab </option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/direitos_humanos/">Com. Direitos Humanos</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/assistencia_social/comas/">Cons. Assist. Social</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/participacao_parceria/coordenadorias/cdr/conselho/index.php?p=9582">Cons. COMUDA</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/trabalho/abastecimento/comusan/index.php?p=26221">Cons. COMUSAN</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/participacao_parceria/conselhos/cmdca/">Cons. Criança e Adolescente</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/pessoa_com_deficiencia/conselho/">Cons. Deficientes</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/educacao/cme/">Cons. Educação</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/habitacao/organizacao/cmh/index.php?p=139">Cons. Habitação</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/participacao_parceria/conselhos/idoso/">Cons. Idoso</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/gestao/cmtic/">Cons. Informática</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/cades/index.php?p=3250">Cons. Meio Ambiente</option>
+          <option value="http://www.conpresp.sp.gov.br">Cons. Preserv. Patr. Histórico</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/saude/conselho_municipal/">Cons. Saúde</option>
+          <option value="http://www.cidadedesaopaulo.com/comtur/">Cons. Turismo</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/participacao_parceria/coordenadorias/cdr/">Coord. Atenção às Drogas</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/participacao_parceria/coordenadorias/conpares">Coord. CONPARES</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/direitos_humanos/diversidade_sexual/">Coord. Diversidade Sexual</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/participacao_parceria/coordenadorias/idosos">Coord. Idoso</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/servicos/inclusao_digital">Coord. Inclusão Digital</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/participacao_parceria/coordenadorias/incubadora/">Coord. Incubadora</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/participacao_parceria/coordenadorias/juventude">Coord. Juventude</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/subprefeituras/defesa_civil/">Defesa Civil</option>
+          <option value="http://www.gcm.sp.gov.br">GCM - Guarda Civil</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/saude/hospital_do_servidor_publico_municipal/">Hospital do Servidor</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/saude/hospital_municipal_infantil_menino_jesus/">Hospital Menino Jesus</option>
+          <option value="http://www.prefeitura.sp.gov.br/iprem">Iprem</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/gestao/prodam/">Prodam</option>
+          <option value="http://www.cidadedesaopaulo.com/">São Paulo Turismo</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/servicos/servico_funerario/">Serviço Funerário</option>
+          <option value="http://www.sptrans.com.br/">SPTrans</option>
+          <option value="http://www.spobras.sp.gov.br">SP Obras</option>
+          <option value="http://www.spurbanismo.sp.gov.br/">SP Urbanismo</option>
+          <option value="http://www.prefeitura.sp.gov.br/cidade/secretarias/trabalho/abastecimento/">Superv. Geral Abastecimento</option>
         </select>
       </p>
     </div>
