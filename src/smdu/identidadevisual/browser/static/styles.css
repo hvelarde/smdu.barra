@@ -66,20 +66,20 @@ footer h4 {
     padding: 5px;
 }
 .icons-logo {
-    background: url('pmsp.png') no-repeat;
+    background: url('++resource++smdu.identidadevisual/pmsp.png') no-repeat;
     display: inline-block;
     height: 50px;
     width: 182px;
 }
 .icons-cc {
-    background: url('cc.png') no-repeat;
+    background: url('++resource++smdu.identidadevisual/cc.png') no-repeat;
     display: inline-block;
     height: 16px;
     width: 16px;
 }
 /* sprites */
 .icons-facebook, .icons-syndication, .icons-twitter, .icons-youtube {
-    background: url('social-networks.png') no-repeat;
+    background: url('++resource++smdu.identidadevisual/social-networks.png') no-repeat;
     display: inline-block;
     height: 34px;
     margin-top: 1em;
