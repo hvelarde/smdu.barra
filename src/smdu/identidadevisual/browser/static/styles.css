@@ -1,4 +1,5 @@
 /* SMDU Identity Bar */
+
 #smdu-identity-bar
 {
     align-items: center;
@@ -7,6 +8,7 @@
     font-size: 80%;
     height: 40px;
     justify-content: space-between;
+    padding: 0 1em;
 }
 #smdu-identity-bar div a {
     color: black;
@@ -20,24 +22,48 @@
 #smdu-global-footer
 {
     align-items: flex-start;
-    background: white;
+    background: #f4f3ee;
     display: flex;
     font-size: 80%;
     justify-content: space-between;
-    margin: 1em 0;
+    margin: 0;
+    padding: 2em 1em;
+
 }
 #smdu-site-footer
 {
     align-items: flex-start;
-    background: white;
+    background: #f4f3ee;
+    border-top: 1px solid #ccc;
     display: flex;
     font-size: 80%;
     justify-content: space-between;
-    margin: 1em 0;
+    margin: 0;
+    padding: 2em 1em;
+}
+#smdu-global-footer ul, #smdu-site-footer ul {
+    margin-bottom: 2em;
+}
+#smdu-global-footer li, #smdu-site-footer li {
+    display: block;
+}
+footer h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+#smdu-site-footer h4 {
+    margin-bottom: 0;
 }
 #smdu-global-footer div, #smdu-site-footer div
 {
     width: 24%;
+}
+#smdu-global-footer select {
+    width: 80%;
+    background: #e3e3e3;
+    border: none;
+    padding: 5px;
 }
 .icons-logo {
     background: url('pmsp.png') no-repeat;
