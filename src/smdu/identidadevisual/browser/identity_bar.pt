@@ -1,14 +1,16 @@
 <tal:identity_bar condition="view/enabled">
   <div id="smdu-identity-bar">
-    <div>
-      <a href="http://www.prefeitura.sp.gov.br/">
-        Prefeitura de São Paulo
-      </a>
-    </div>
-    <div>
-      <a class="smdu-info" href="http://transparencia.prefeitura.sp.gov.br/">
-        Acesso à informação
-      </a>
+    <div class="identity-wrapper">
+      <div>
+        <a href="http://www.prefeitura.sp.gov.br/">
+          Prefeitura de São Paulo
+        </a>
+      </div>
+      <div>
+        <a class="smdu-info" href="http://transparencia.prefeitura.sp.gov.br/">
+          Acesso à informação
+        </a>
+      </div>
     </div>
   </div>
 </tal:identity_bar>
