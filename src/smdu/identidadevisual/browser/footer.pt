@@ -119,53 +119,47 @@
     <div>
       <h4>Plataformas de Participação e Transparência</h4>
       <ul>
-        <li>Busca Saúde</li>
-        <li>Combate Assédio Sexual</li>
-        <li>GeoSampa</li>
-        <li>Gestão Urbana</li>
-        <li>Infocidade</li>
-        <li>Mapas e Serviços</li>
-        <li>Mobilidade Segura</li>
-        <li>Observa Sampa</li>
-        <li>Planeja Sampa</li>
-        <li>São Paulo Aberta</li>
-        <li>SPCultura</li>
+        <li><a href="http://buscasaude.prefeitura.sp.gov.br/">Busca Saúde</a></li>
+        <li><a href="http://geosampa.prefeitura.sp.gov.br/">GeoSampa</a></li>
+        <li><a href="http://gestaourbana.prefeitura.sp.gov.br/">Gestão Urbana</a></li>
+        <li><a href="http://infocidade.prefeitura.sp.gov.br/">Infocidade</a></li>
+        <li><a href="http://mobilidadesegura.prefeitura.sp.gov.br/">Mobilidade Segura</a></li>
+        <li><a href="http://observasampa.prefeitura.sp.gov.br/">Observa Sampa</a></li>
+        <li><a href="http://planejasampa.prefeitura.sp.gov.br/">Planeja Sampa</a></li>
+        <li><a href="http://saopauloaberta.prefeitura.sp.gov.br/">São Paulo Aberta</a></li>
+        <li><a href="http://spcultura.prefeitura.sp.gov.br/">SPCultura</a></li>
+        <li><a href="http://transparencia.prefeitura.sp.gov.br/">Portal Transparência</a></li>
+        <li><a href="http://dados.prefeitura.sp.gov.br/">Dados Abertos</a></li>
       </ul>
     </div>
 
     <div>
       <h4>Consultas</h4>
       <ul>
-        <li>Pesquisa de Processos</li>
-        <li>Licitações</li>
-        <li>Alta de Registro de Preços</li>
-        <li>Diário Oficial</li>
+        <li><a href="http://www.prefeitura.sp.gov.br/cidade/secretarias/gestao/processos/">Pesquisa de Processos</a></li>
+        <li><a href="http://legislacao.prefeitura.sp.gov.br/">Licitações</a></li>
+        <li><a href="http://www.prefeitura.sp.gov.br/cidade/secretarias/gestao/links/index.php?p=24208">Alta de Registro de Preços</a></li>
+        <li><a href="http://www.docidadesp.imprensaoficial.com.br/">Diário Oficial</a></li>
       </ul>
       <h4>São Paulo Para</h4>
       <ul>
-        <li>Cidadão</li>
-        <li>Empresa</li>
-        <li>Turista</li>
-        <li>Servidor</li>
+        <li><a href="http://capital.sp.gov.br/cidadao">Cidadão</a></li>
+        <li><a href="http://capital.sp.gov.br/empresa">Empresa</a></li>
+        <li><a href="http://capital.sp.gov.br/turista">Turista</a></li>
+        <li><a href="http://capital.sp.gov.br/servidor">Servidor</a></li>
       </ul>
     </div>
 
     <div>
-      <h4>Transparência</h4>
-      <ul>
-        <li>Portal Transparência</li>
-        <li>Dados Abertos</li>
-      </ul>
-
       <h4>Serviços aos Cidadãos</h4>
       <ul>
-        <li>Guia de Serviços</li>
-        <li>Aplicativos</li>
-        <li>Procon Paulistano</li>
-        <li>Pedido de Informação</li>
-        <li>Central 156</li>
-        <li>Praças de Atendimento das Subprefeituras</li>
-        <li>Ouvidoria Geral do Município: 0800 175717</li>
+        <li><a href="">Guia de Serviços</a></li>
+        <li><a href="">Aplicativos</a></li>
+        <li><a href="http://www.proconpaulistano.prefeitura.sp.gov.br/">Procon Paulistano</a></li>
+        <li><a href="">Pedido de Informação</a></li>
+        <li><a href="">Central 156</a></li>
+        <li><a href="">Praças de Atendimento das Subprefeituras</a></li>
+        <li><a href="http://www.prefeitura.sp.gov.br/cidade/secretarias/ouvidoria/">Ouvidoria Geral do Município: 0800 175717</a></li>
       </ul>
     </div>
 
