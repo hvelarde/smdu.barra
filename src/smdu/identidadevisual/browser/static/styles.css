@@ -99,3 +99,8 @@ footer h4 {
 .icons-youtube {
     background-position: -176px -103px;
 }
+
+/* slideshow nitf */
+.slideshow-container {
+    position: relative;
+}
